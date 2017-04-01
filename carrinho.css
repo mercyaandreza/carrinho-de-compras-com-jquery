@@ -47,6 +47,14 @@ td {
 	font-style: italic;
 }
 
+.hovering{
+	background: #CCC;
+}
+
+.recuperado {
+	background: yellow;
+}
+
 .remove-item {	
 	background: #F30;
 	border-radius: 2px;
@@ -55,8 +63,21 @@ td {
 	text-decoration: none;
 	text-transform: uppercase;
 	
-	display: inline-block;
+	display: none;
 	padding: 0.5em;
+}
+
+.alterna-propaganda{
+	background: blue;
+	color: #EEE;
+	text-decoration: none;
+	padding: 15px;
+	font-weight: bold;
+}
+
+#mostra-propaganda{
+	background: green;
+	display: none;
 }
 
 input[type=button] {
